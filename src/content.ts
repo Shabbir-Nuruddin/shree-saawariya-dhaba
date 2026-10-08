@@ -1,0 +1,117 @@
+import "@fontsource/baloo-2/600.css";
+import "@fontsource/baloo-2/800.css";
+import type { Site } from "./lib";
+
+export const SITE: Site = {
+  name: "Shree Saawariya Dhaba",
+  sub: { en: "Parathas & North Indian, 24 hours · CD Chowk, Sector 48", hi: "पराठे और नॉर्थ इंडियन, 24 घंटे · सीडी चौक, सेक्टर 48" },
+  banner: { en: "Late shift or early start? Open 24 hours", hi: "लेट शिफ़्ट या सुबह जल्दी? 24 घंटे खुला है" },
+  phone: "919711403338",
+  phoneDisplay: "+91 97114 03338",
+  lat: 28.4113659,
+  lon: 77.0417088,
+  hours: [[0, 24], [0, 24], [0, 24], [0, 24], [0, 24], [0, 24], [0, 24]],
+  price: { en: "₹200–400 per person", hi: "₹200–400 प्रति व्यक्ति" },
+  theme: {
+    dark: true,
+    bg: "#0f0a14",
+    bg2: "#160f1c",
+    panel: "#1c1423",
+    ink: "#f8eef4",
+    ink2: "#d0c0cb",
+    ink3: "#90808c",
+    line: "#30233a",
+    accent: "#ff7aa8",
+    onAccent: "#2a0614",
+    display: "Baloo 2",
+    weight: 800,
+    upper: false,
+  },
+  scene: "pour",
+  align: "right",
+  hero: {
+    title: [
+      { en: "Butter parathas,", hi: "मक्खन वाले पराठे," },
+      { en: "any hour at CD Chowk.", hi: "सीडी चौक पर, किसी भी समय।" },
+    ],
+    proof: {
+      en: "4.5 on Google from 130 reviews. Parathas with butter, achaar and chutney, dal makhni and paneer lababdar, 24 hours at CD Chowk, Sector 48.",
+      hi: "गूगल पर 130 रिव्यू से 4.5। मक्खन, अचार और चटनी के साथ पराठे, दाल मखनी और पनीर लबाबदार, 24 घंटे, सीडी चौक, सेक्टर 48।",
+    },
+    fallback: "/img/p14.jpg",
+  },
+  marquee: ["Murthal Paratha", "Paneer Lababdar", "Handi Paneer", "Dal Makhni", "Onion Kulcha", "Kaju Kadi", "Paneer Achari Tikka"],
+  dishes: {
+    title: { en: "What to order, in guests' words", hi: "क्या मंगाएं, मेहमानों के शब्दों में" },
+    body: { en: "Every line is a real Google review.", hi: "हर लाइन असली गूगल रिव्यू है।" },
+    layout: "list",
+    items: [
+      { name: { en: "Parathas", hi: "पराठे" }, quote: "Paranthas are too good and served with butter aachar and chutney", img: "/img/p14.jpg" },
+      { name: { en: "Paneer Lababdar & Murthal Paratha", hi: "पनीर लबाबदार और मुरथल पराठा" }, quote: "Mouthwatering paneer lababdaar , handi paneer and murthal parantha must try." },
+      { name: { en: "Dal Makhni & Onion Kulcha", hi: "दाल मखनी और ओनियन कुल्चा" }, quote: "Dal makhni and special onion kulcha are must try." },
+      { name: { en: "Kaju Kadi", hi: "काजू कढ़ी" }, quote: "Dal makhani & kaju Kadi awesome 5 star food" },
+      { name: { en: "Paneer Achari Tikka", hi: "पनीर अचारी टिक्का" }, quote: "i have ordered the spring roll and panner achari tikka.highly recommended" },
+    ],
+  },
+  gallery: { title: { en: "", hi: "" }, layout: "strip", photos: [] },
+  feature: {
+    kind: "thali",
+    title: { en: "Fair prices, quick service", hi: "सही दाम, जल्दी सर्विस" },
+    body: { en: "What guests notice, word for word.", hi: "मेहमान क्या नोटिस करते हैं, उन्हीं के शब्दों में।" },
+    img: "/img/p6.jpg",
+    items: [
+      { label: { en: "Portions", hi: "पोर्शन" }, quote: "Prices are reasonable and portion size is good. Service is quick." },
+      { label: { en: "Family lunch", hi: "फ़ैमिली लंच" }, quote: "Had lunch with family. Nice ambience, delicious food and good service." },
+      { label: { en: "The hosts", hi: "मेज़बान" }, quote: "Amazing food , amazing taste and wonderful people to host you , must try" },
+      { label: { en: "Even when busy", hi: "भीड़ में भी" }, quote: "The service was quick too — our food arrived in no time even though the place was busy." },
+    ],
+  },
+  reviews: {
+    title: { en: "104 of 130 reviews are five stars", hi: "130 में से 104 रिव्यू पांच स्टार" },
+    rating: 4.5,
+    dist: [104, 12, 0, 2, 12],
+    quotes: [
+      { quote: "Food, Ambient, service all are top notch. Really finger licking food. Must try once at least.", stars: 5 },
+      { quote: "Very tasty food at reasonable prices!!!", stars: 5 },
+      { quote: "Nice food...recommended for north indian authentic taste", stars: 5 },
+    ],
+  },
+  visit: {
+    title: { en: "CD Tower, CD Chowk", hi: "सीडी टावर, सीडी चौक" },
+    img: "/img/p4.jpg",
+    alt: "Shree Saawariya Dhaba storefront",
+    address: { en: "Shop No. 1, CD Tower, CD Chowk, Main Badshahpur Sohna Rd, Sector 48, Gurugram", hi: "शॉप नं. 1, सीडी टावर, सीडी चौक, मेन बादशाहपुर सोहना रोड, सेक्टर 48, गुरुग्राम" },
+    note: { en: "Open 24 hours, every day.", hi: "हर दिन 24 घंटे खुला।" },
+  },
+  pour: { from: "pan", into: "kadhai", liquid: "#5a2410", foam: "#8a4420", thick: 2.4, hot: true, butter: true },
+  story: [
+    { kicker: { en: "The paratha", hi: "पराठा" }, title: { en: "With butter, achaar, chutney.", hi: "मक्खन, अचार, चटनी के साथ।" }, quote: "Paranthas are too good and served with butter aachar and chutney" },
+    { kicker: { en: "The paneer", hi: "पनीर" }, title: { en: "Paneer lababdar, a must.", hi: "पनीर लबाबदार, ज़रूर।" }, quote: "Mouthwatering paneer lababdaar , handi paneer and murthal parantha must try." },
+    { kicker: { en: "The service", hi: "सर्विस" }, title: { en: "Quick, even when busy.", hi: "भीड़ में भी जल्दी।" }, quote: "The service was quick too — our food arrived in no time even though the place was busy." },
+  ],
+  build: {
+    title: { en: "Build your order in a few taps", hi: "कुछ टैप में अपना ऑर्डर बनाइए" },
+    body: { en: "Tap what you want, set how many and when. It goes to WhatsApp exactly as you see it.", hi: "जो चाहिए टैप करें, कितने लोग और कब, चुनें। मैसेज व्हाट्सऐप पर ठीक ऐसे ही जाएगा।" },
+    pick: { label: { en: "Order", hi: "ऑर्डर" }, options: [
+      { name: { en: "Dine-in", hi: "बैठकर खाना" } },
+      { name: { en: "Delivery", hi: "डिलीवरी" } },
+      { name: { en: "Takeaway", hi: "पैक करवाना" } },
+    ] },
+    items: [
+      { en: "Murthal Paratha", hi: "मुरथल पराठा" },
+      { en: "Paneer Lababdar", hi: "पनीर लबाबदार" },
+      { en: "Handi Paneer", hi: "हांडी पनीर" },
+      { en: "Dal Makhni", hi: "दाल मखनी" },
+      { en: "Onion Kulcha", hi: "ओनियन कुल्चा" },
+      { en: "Kaju Kadi", hi: "काजू कढ़ी" },
+    ],
+    people: true,
+    when: true,
+    hello: { en: "Hi Shree Saawariya Dhaba, I'd like:", hi: "नमस्ते श्री सांवरिया ढाबा, मुझे चाहिए:" },
+  },
+  waHello: {
+    en: "Hi Shree Saawariya Dhaba, I'd like to order. Items: , dine-in / delivery: , time: ",
+    hi: "नमस्ते श्री सांवरिया ढाबा, मुझे ऑर्डर देना है। आइटम: , बैठकर / डिलीवरी: , समय: ",
+  },
+  order: ["build", "dishes", "feature", "reviews", "visit"],
+};
