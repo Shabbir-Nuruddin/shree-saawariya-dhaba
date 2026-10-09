@@ -39,6 +39,7 @@ export const SITE: Site = {
       hi: "गूगल पर 130 रिव्यू से 4.5। मक्खन, अचार और चटनी के साथ पराठे, दाल मखनी और पनीर लबाबदार, 24 घंटे, सीडी चौक, सेक्टर 48।",
     },
     fallback: "/img/p14.jpg",
+    slides: ["/img/p14.jpg", "/img/p4.jpg", "/img/p6.jpg"],
   },
   marquee: ["Murthal Paratha", "Paneer Lababdar", "Handi Paneer", "Dal Makhni", "Onion Kulcha", "Kaju Kadi", "Paneer Achari Tikka"],
   dishes: {
